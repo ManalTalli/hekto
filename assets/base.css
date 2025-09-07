@@ -1,15 +1,70 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-:root{
-    --primaryColor :#FB2E86;
-    --primaryFont :"Lato", sans-serif;
+
+:root {
+    --primaryColor: #FB2E86;
+    --primaryFont: "Lato", sans-serif;
+    --primaryFontSize: 16px;
+}
+
+.whiteC {
+    color: #FFF;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-d {
+    flex-direction: column;
+}
+
+.gab25 {
+    gap: 25px;
+}
+
+.noStretch {
+    align-items: flex-start;
+}
+
+.josFont {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.muted-blueC {
+    color: #8A8FB9;
+
+}
+.blackC{
+    color: #000;
+}
+.robotoFont{
+font-family: "Roboto", sans-serif;
+}
+
+.textcent{
+    text-align: center;    
+}
+.whiteBack{
+    background-color: #fff ;
+}
+.corner-rad3{
+    border-radius: 3px;
+}
+.opacity45{
+    opacity: 45%;
+}
+.fontSize22{
+    font-size: 22px;
 }

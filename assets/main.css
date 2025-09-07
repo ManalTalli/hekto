@@ -1,8 +1,8 @@
-body {
-    font-family: var(--primaryFont);
+body{
     color: var(--primaryColor);
+    font-family: var(--primaryFont);
+    font-size: var(--primaryFontSize);
 }
-
 .header {
     padding: 10px 0;
     align-items: center;
@@ -23,21 +23,21 @@ body {
 .container {
     width: calc(100% - 245px);
     margin: auto;
+    
 }
 
-.search form input {
+.search input {
     border: none;
     outline: none;
     width: 250px;
     padding: 4px;
 }
 
-.search form button {
+.search button {
     border: none;
     outline: none;
     background-color: var(--primaryColor);
-    width: 50px;
-    height: 40px;
+    padding: 8px 15px;
 }
 
 .search form {
@@ -63,3 +63,35 @@ body {
     }
     
 }
+.footer{
+    background-color: #EEEFFB;
+    padding: 92px 0;
+}
+.spaces{
+    gap: 21px;
+    padding-top: 41px;
+    padding-right: 100px;
+
+}
+.muted-blueC a {
+    color: #8A8FB9;
+}
+.email input {
+    border: none;
+    outline: none;
+    padding: 10px 80px 10px 20px;
+    border-radius: 3px;
+}
+
+.email button {
+    border: none;
+    outline: none;
+    background-color: var(--primaryColor);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.email form {
+    border:none;
+}
+
