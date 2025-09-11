@@ -75,3 +75,15 @@ font-family: "Roboto", sans-serif;
     justify-content: center;
     
 }
+.gap28{
+    gap: 28px;
+}
+.darkBlueC{
+    color: #151875;
+}
+.bold{
+    font-weight: bold;
+}
+.regular{
+    font-weight: 400;
+}
