@@ -68,3 +68,10 @@ font-family: "Roboto", sans-serif;
 .fontSize22{
     font-size: 22px;
 }
+.aligncent{
+    align-items: center;
+}
+.justifycent{
+    justify-content: center;
+    
+}
