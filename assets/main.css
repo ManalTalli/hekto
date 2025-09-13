@@ -75,6 +75,42 @@ body {
 
 /*end header*/
 /*start main*/
+/*start product*/
+.color-option .option1{
+    background-color: #05E6B7;   
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+}
+.color-option .option2{
+    background-color: #F701A8; 
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;  
+}
+.color-option .option3{
+    background-color: #00009D;   
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+}
+.products{
+box-shadow: 0px 4px 4px #00000040;
+}
+.products .img{
+    background-color: #F6F7FB;
+    width: 270px;
+    height: 236px;
+    justify-content: center;
+}
+.products .img .image{
+    object-fit: contain;
+}
+.featured{
+    text-align: center;
+    color: #1A0B5B;
+}
+/*end product*/
 /*start newslater*/
 .newslater{
     background-image: url(img/newslater.webp);

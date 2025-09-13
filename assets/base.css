@@ -87,3 +87,27 @@ font-family: "Roboto", sans-serif;
 .regular{
     font-weight: 400;
 }
+.gap5{
+    gap: 5px;
+}
+.gap12{
+    gap: 12px;
+}
+.gap50{
+    gap: 50px;
+}
+.paddingTB12{
+padding: 12px 0;
+}
+.paddingT15{
+    padding-top: 15px;
+}
+.paddingB17{
+    padding-bottom: 17px;
+}
+.paddingT130{
+    padding-top: 130px;
+}
+.paddingB53{
+    padding-bottom: 53px;
+}
