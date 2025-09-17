@@ -6,7 +6,8 @@ body {
 
 /*start header*/
 .header {
-    padding: 10px 0;
+    padding-top: 47px;
+    padding-bottom: 35px;
     align-items: center;
 }
 
@@ -75,61 +76,82 @@ body {
 
 /*end header*/
 /*start main*/
+/*start hero*/
+.hero .lamp {
+    position: relative;
+    bottom: 693px;
+    left: 70px;
+    width: 387px;
+    height: 387px;
+}
+/*end hero*/
 /*start product*/
-.color-option .option1{
-    background-color: #05E6B7;   
+
+.color-option .option1 {
+    background-color: #05E6B7;
     width: 14px;
     height: 4px;
     border-radius: 10px;
 }
-.color-option .option2{
-    background-color: #F701A8; 
-    width: 14px;
-    height: 4px;
-    border-radius: 10px;  
-}
-.color-option .option3{
-    background-color: #00009D;   
+
+.color-option .option2 {
+    background-color: #F701A8;
     width: 14px;
     height: 4px;
     border-radius: 10px;
 }
-.products{
-box-shadow: 0px 4px 4px #00000040;
+
+.color-option .option3 {
+    background-color: #00009D;
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
 }
-.products .img{
+
+.products {
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.products .img {
     background-color: #F6F7FB;
     width: 270px;
     height: 236px;
     justify-content: center;
 }
-.products .img .image{
+
+.products .img .image {
     object-fit: contain;
 }
-.featured{
+
+.featured {
     text-align: center;
     color: #1A0B5B;
 }
+
 /*end product*/
 /*start newslater*/
-.newslater{
+.newslater {
     background-image: url(img/newslater.webp);
     height: 462px;
     width: auto;
     margin-top: 125px;
     margin-bottom: 95px;
 }
+
 .newslater .news {
-  padding: 175px 0 103px 0;
-    
+    padding: 175px 0 103px 0;
+
 }
-.news h2{
-    font-weight: bold;  
+
+.news h2 {
+    font-weight: bold;
 }
-.news button{
+
+.news button {
     padding: 16px 34px;
     border-radius: 2px;
 }
+
 /*end newslater*/
 
 /*start client*/
@@ -140,6 +162,7 @@ box-shadow: 0px 4px 4px #00000040;
     margin: auto;
     margin-bottom: 95px;
 }
+
 /*end client*/
 
 

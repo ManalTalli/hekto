@@ -111,3 +111,26 @@ padding: 12px 0;
 .paddingB53{
     padding-bottom: 53px;
 }
+.lightBing-Back{
+    background-color: #F2F0FF;
+}
+.spaceBet{
+justify-content: space-between;
+}
+.paddingB12{
+    padding-bottom: 12px;
+}
+.paddingB35{
+    padding-bottom: 35px;
+}
+.paddingTB35{
+    padding: 35px;
+}
+.button{
+    border: none;
+    outline: none;
+   
+}
+.paddingTB5{
+    padding: 5px;
+}
