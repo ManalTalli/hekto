@@ -92,6 +92,8 @@ body {
     width: 14px;
     height: 4px;
     border-radius: 10px;
+    border: none;
+    outline: none;
 }
 
 .color-option .option2 {
@@ -99,6 +101,8 @@ body {
     width: 14px;
     height: 4px;
     border-radius: 10px;
+    border: none;
+    outline: none;
 }
 
 .color-option .option3 {
@@ -106,26 +110,80 @@ body {
     width: 14px;
     height: 4px;
     border-radius: 10px;
+    border: none;
+    outline: none;
 }
 
 .products {
     box-shadow: 0px 4px 4px #00000040;
 }
 
-.products .img {
+.products .img1 {
     background-color: #F6F7FB;
     width: 270px;
     height: 236px;
-    justify-content: center;
+    background-image: url(../assets/img/product/chair1.webp); 
+    background-position: center;
+    background-repeat: no-repeat;    
 }
-
-.products .img .image {
-    object-fit: contain;
+.products .img2 {
+    background-color: #F6F7FB;
+    width: 270px;
+    height: 236px;
+    background-image: url(../assets/img/product/chair2.webp); 
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
+.products .img3 {
+    background-color: #F6F7FB;
+    width: 270px;
+    height: 236px;
+    background-image: url(../assets/img/product/chair3.webp); 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products .img4 {
+    background-color: #F6F7FB;
+    width: 270px;
+    height: 236px;
+    background-image: url(../assets/img/product/chair4.webp); 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products .viewDet{
+    text-align: center;
+    position: relative;
+    top:  170px;
+    display: none;
+}
+.products .viewDet button{
+     border: none;
+    outline: none;
+}
+.products .icons{
+    display: none;
+}
+.products:hover .viewDet{
+display:block ;
+}
+.products:hover .icons{
+display:block ;
+}
 .featured {
     text-align: center;
     color: #1A0B5B;
+}
+.products:hover{
+    background-color: #2F1AC4;
+}
+.products:hover .prod-details{
+    color: #FFF;
+}
+.products:hover .option3{
+    background-color: #FFEAC1;
+}
+.products:hover .prod-info{
+    color: #FFF;
 }
 
 /*end product*/
