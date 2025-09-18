@@ -137,4 +137,24 @@ justify-content: space-between;
 .paddingL5{
     padding-left: 5px;
 }
-
+.margnB{
+    margin-bottom: auto;
+}
+.gap15{
+    gap: 15px;
+}
+.red-pinkC{
+    color: #FB2448;
+}
+.tect-decoL{
+    text-decoration-line: line-through ;
+}
+.gap10{
+    gap: 10px;
+}
+.gap20{
+    gap: 20px;
+}
+.paddingT128{
+    padding-top: 128px;
+}

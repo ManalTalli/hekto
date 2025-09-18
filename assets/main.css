@@ -84,6 +84,7 @@ body {
     width: 387px;
     height: 387px;
 }
+
 /*end hero*/
 /*start product*/
 
@@ -122,71 +123,194 @@ body {
     background-color: #F6F7FB;
     width: 270px;
     height: 236px;
-    background-image: url(../assets/img/product/chair1.webp); 
+    background-image: url(../assets/img/product/chair1.webp);
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
+
 .products .img2 {
     background-color: #F6F7FB;
     width: 270px;
     height: 236px;
-    background-image: url(../assets/img/product/chair2.webp); 
+    background-image: url(../assets/img/product/chair2.webp);
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .products .img3 {
     background-color: #F6F7FB;
     width: 270px;
     height: 236px;
-    background-image: url(../assets/img/product/chair3.webp); 
+    background-image: url(../assets/img/product/chair3.webp);
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .products .img4 {
     background-color: #F6F7FB;
     width: 270px;
     height: 236px;
-    background-image: url(../assets/img/product/chair4.webp); 
+    background-image: url(../assets/img/product/chair4.webp);
     background-position: center;
     background-repeat: no-repeat;
 }
-.products .viewDet{
+
+.products .viewDet {
     text-align: center;
     position: relative;
-    top:  170px;
+    top: 170px;
     display: none;
 }
-.products .viewDet button{
-     border: none;
+
+.products .viewDet button {
+    border: none;
     outline: none;
 }
-.products .icons{
+
+.products .icons {
     display: none;
 }
-.products:hover .viewDet{
-display:block ;
+
+.products:hover .viewDet {
+    display: block;
 }
-.products:hover .icons{
-display:block ;
+
+.products:hover .icons {
+    display: block;
 }
+
 .featured {
     text-align: center;
     color: #1A0B5B;
 }
-.products:hover{
+
+.products:hover {
     background-color: #2F1AC4;
 }
-.products:hover .prod-details{
+
+.products:hover .prod-details {
     color: #FFF;
 }
-.products:hover .option3{
+
+.products:hover .option3 {
     background-color: #FFEAC1;
 }
-.products:hover .prod-info{
+
+.products:hover .prod-info {
     color: #FFF;
 }
 
 /*end product*/
+/*start Leatest Products section*/
+.leatest-prod .photo-prod1 {
+    width: 360px;
+    height: 270px;
+    background-color: #F7F7F7;
+    background-image: url(../assets/img/LeatestProducts/chair1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 20px;
+    gap: 75px;
+}
+
+.leatest-prod .photo-prod2 {
+    width: 360px;
+    height: 270px;
+    background-color: #F7F7F7;
+    background-image: url(../assets/img/LeatestProducts/chair2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 20px;
+    gap: 75px;
+}
+
+.leatest-prod .photo-prod3 {
+    width: 360px;
+    height: 270px;
+    background-color: #F7F7F7;
+    background-image: url(../assets/img/LeatestProducts/chair3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 20px;
+    gap: 75px;
+}
+
+.leatest-prod .photo-prod4 {
+    width: 360px;
+    height: 270px;
+    background-color: #F7F7F7;
+    background-image: url(../assets/img/LeatestProducts/chair4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 20px;
+    gap: 75px;
+}
+
+.leatest-prod .photo-prod5 {
+    width: 360px;
+    height: 270px;
+    background-color: #F7F7F7;
+    background-image: url(../assets/img/LeatestProducts/chair5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 20px;
+    gap: 75px;
+}
+
+.leatest-prod .photo-prod6 {
+    width: 360px;
+    height: 270px;
+    background-color: #F7F7F7;
+    background-image: url(../assets/img/LeatestProducts/chair6.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 20px;
+    gap: 75px;
+}
+
+.leatest-prod .sale,
+.licons {
+    display: none;
+}
+
+.leatest-prod .sale img {
+    width: 84px;
+    height: 56px;
+}
+
+.lproducts:hover .photo-prod {
+    background-color: #FFF;
+}
+
+.lproducts:hover .sale {
+    display: block;
+}
+
+.lproducts:hover .licons {
+    display: flex;
+    flex-direction: column;
+}
+
+.lproduct {
+    flex-wrap: wrap;
+}
+
+.lproducts {
+    padding-bottom: 120px;
+
+}
+.letest-list li:hover {
+    color: #F701A8;
+    text-decoration-line: underline;
+}
+
+/*end Leatest Products section*/
 /*start newslater*/
 .newslater {
     background-image: url(img/newslater.webp);
