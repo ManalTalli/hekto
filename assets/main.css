@@ -307,29 +307,92 @@ body {
 /*end Leatest Products section*/
 /* start shopex section*/
 
-.offer{
-width: 270px;
-height: 320px;
-background-color: #FFF;
-box-shadow: 0px 0px 30px #00000010;
+.offer {
+    width: 270px;
+    height: 320px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 30px #00000010;
 }
 
 /* end shopex section*/
 /*start Trending Products section*/
 
-.tprods{
+.tprods {
     width: 270px;
-height: 350px;
-background-color: #FFF;
-box-shadow: 0px 0px 30px #00000010;
+    height: 350px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 30px #00000010;
 }
-.timg{
-width: 247px;
-height: 244px;
-background-color: #F5F6F8;
-margin: auto;
+
+.timg {
+    width: 247px;
+    height: 244px;
+    background-color: #F5F6F8;
+    margin: auto;
 }
+
 /*end Trending Products section*/
+/*start trending categoris section*/
+.top{
+     width: 269px;
+    height: 345px;
+}
+.img1{
+    width: 269px;
+    height: 269px;
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    background-image: url(../assets/img/topcat/chair1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img2{
+    width: 269px;
+    height: 269px;
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    background-image: url(../assets/img/topcat/chair2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img3{
+    width: 269px;
+    height: 269px;
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    background-image: url(../assets/img/topcat/chair3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img4{
+    width: 269px;
+    height: 269px;
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    background-image: url(../assets/img/topcat/chair4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top-img img{
+    display: none;
+}
+.top:hover .top-img {
+    box-shadow: -7px 7px 0px #9877E7;
+}
+.top:hover .top-img img {
+    display: block;
+}
+
+.top-img img{
+    
+    position: relative;
+    top: 225px;
+    left: 85px;
+}
+/*end trending categoris section*/
 /*start newslater*/
 .newslater {
     background-image: url(img/newslater.webp);

@@ -46,118 +46,160 @@ ul {
     color: #8A8FB9;
 
 }
-.blackC{
+
+.blackC {
     color: #000;
 }
-.robotoFont{
-font-family: "Roboto", sans-serif;
+
+.robotoFont {
+    font-family: "Roboto", sans-serif;
 }
 
-.textcent{
-    text-align: center;    
+.textcent {
+    text-align: center;
 }
-.whiteBack{
-    background-color: #fff ;
+
+.whiteBack {
+    background-color: #fff;
 }
-.corner-rad3{
+
+.corner-rad3 {
     border-radius: 3px;
 }
-.opacity45{
+
+.opacity45 {
     opacity: 45%;
 }
-.fontSize22{
+
+.fontSize22 {
     font-size: 22px;
 }
-.aligncent{
+
+.aligncent {
     align-items: center;
 }
-.justifycent{
+
+.justifycent {
     justify-content: center;
-    
+
 }
-.gap28{
+
+.gap28 {
     gap: 28px;
 }
-.darkBlueC{
+
+.darkBlueC {
     color: #151875;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.regular{
+
+.regular {
     font-weight: 400;
 }
-.gap5{
+
+.gap5 {
     gap: 5px;
 }
-.gap12{
+
+.gap12 {
     gap: 12px;
 }
-.gap50{
+
+.gap50 {
     gap: 50px;
 }
-.paddingTB12{
-padding: 12px 0;
+
+.paddingTB12 {
+    padding: 12px 0;
 }
-.paddingT15{
+
+.paddingT15 {
     padding-top: 15px;
 }
-.paddingB17{
+
+.paddingB17 {
     padding-bottom: 17px;
 }
-.paddingT130{
+
+.paddingT130 {
     padding-top: 130px;
 }
-.paddingB53{
+
+.paddingB53 {
     padding-bottom: 53px;
 }
-.lightBing-Back{
+
+.lightBing-Back {
     background-color: #F2F0FF;
 }
-.spaceBet{
-justify-content: space-between;
+
+.spaceBet {
+    justify-content: space-between;
 }
-.paddingB12{
+
+.paddingB12 {
     padding-bottom: 12px;
 }
-.paddingB35{
+
+.paddingB35 {
     padding-bottom: 35px;
 }
-.paddingTB35{
+
+.paddingTB35 {
     padding: 35px 0;
 }
-.button{
+
+.button {
     border: none;
     outline: none;
-   
+
 }
-.paddingTB5{
+
+.paddingTB5 {
     padding: 5px 0;
 }
-.paddingL5{
+
+.paddingL5 {
     padding-left: 5px;
 }
-.margnB{
+
+.margnB {
     margin-bottom: auto;
 }
-.gap15{
+
+.gap15 {
     gap: 15px;
 }
-.red-pinkC{
+
+.red-pinkC {
     color: #FB2448;
 }
-.tect-decoL{
-    text-decoration-line: line-through ;
+
+.tect-decoL {
+    text-decoration-line: line-through;
 }
-.gap10{
+
+.gap10 {
     gap: 10px;
 }
-.gap20{
+
+.gap20 {
     gap: 20px;
 }
-.paddingT128{
+
+.paddingT128 {
     padding-top: 128px;
 }
-.size42{
+
+.size42 {
     font-size: 42px;
+}
+.paddingT30 {
+    padding-top: 30px;
+}
+.paddingT80 {
+    padding-top: 80px;
 }
