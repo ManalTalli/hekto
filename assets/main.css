@@ -77,13 +77,6 @@ body {
 /*end header*/
 /*start main*/
 /*start hero*/
-.hero .lamp {
-    position: relative;
-    bottom: 693px;
-    left: 70px;
-    width: 387px;
-    height: 387px;
-}
 
 /*end hero*/
 /*start product*/
@@ -305,12 +298,24 @@ body {
     padding-bottom: 120px;
 
 }
+
 .letest-list li:hover {
     color: #F701A8;
     text-decoration-line: underline;
 }
 
 /*end Leatest Products section*/
+/* start shopex section*/
+
+.offer{
+width: 270px;
+height: 320px;
+background-color: #FFF;
+box-shadow: 0px 0px 30px #00000010;
+}
+
+/* end shopex section*/
+
 /*start newslater*/
 .newslater {
     background-image: url(img/newslater.webp);
