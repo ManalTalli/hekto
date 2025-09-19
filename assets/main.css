@@ -315,7 +315,21 @@ box-shadow: 0px 0px 30px #00000010;
 }
 
 /* end shopex section*/
+/*start Trending Products section*/
 
+.tprods{
+    width: 270px;
+height: 350px;
+background-color: #FFF;
+box-shadow: 0px 0px 30px #00000010;
+}
+.timg{
+width: 247px;
+height: 244px;
+background-color: #F5F6F8;
+margin: auto;
+}
+/*end Trending Products section*/
 /*start newslater*/
 .newslater {
     background-image: url(img/newslater.webp);
