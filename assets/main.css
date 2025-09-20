@@ -337,7 +337,7 @@ body {
      width: 269px;
     height: 345px;
 }
-.img1{
+.timg1{
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -347,7 +347,7 @@ body {
     background-position: center;
 }
 
-.img2{
+.timg2{
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -357,7 +357,7 @@ body {
     background-position: center;
 }
 
-.img3{
+.timg3{
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -367,7 +367,7 @@ body {
     background-position: center;
 }
 
-.img4{
+.timg4{
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -428,10 +428,37 @@ body {
 }
 
 /*end client*/
-
-
-
-
+/*start leatest blog section*/
+.blog{
+        box-shadow: 0px 0px 30px #00000010;
+width: 370px;
+height: 493px;
+}
+.fname2{
+    display: none;
+}
+.bimg img{
+    border-radius: 8px;
+}
+.bdetails button{
+border: none;
+background-color: #FFF;
+    color: #151875;
+    text-decoration-line: underline;
+}
+.blog:hover h3{
+color: var(--primaryColor);
+}
+.blog:hover button{
+color: var(--primaryColor);
+}
+.blog:hover .fname1{
+display: none;
+}
+.blog:hover .fname2{
+display: inline;
+}
+/*end leatest blog section*/
 /*end main*/
 /*start footer*/
 
