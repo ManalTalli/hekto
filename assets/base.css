@@ -212,3 +212,6 @@ ul {
 .paddingB115{
     padding-bottom: 115px;
 }
+.wrap{
+    flex-wrap: wrap;
+}

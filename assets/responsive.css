@@ -35,17 +35,19 @@
         width: calc(100% - 200px);
 
     }
+        .main .pic{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width:576px) {
     .container {
         width: calc(100% - 50px);
-
-
     }
 
     .footer .right {
         width: 50%;
-
     }
+
 }
