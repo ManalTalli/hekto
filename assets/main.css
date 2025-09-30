@@ -108,13 +108,11 @@ body {
     outline: none;
 }
 
-.products {
-    box-shadow: 0px 4px 4px #00000040;
-}
+
 
 .products .img1 {
     background-color: #F6F7FB;
-    width: 270px;
+    flex-grow: 1;
     height: 236px;
     background-image: url(../assets/img/product/chair1.webp);
     background-position: center;
@@ -123,8 +121,9 @@ body {
 
 .products .img2 {
     background-color: #F6F7FB;
-    width: 270px;
+    flex-grow: 1;
     height: 236px;
+
     background-image: url(../assets/img/product/chair2.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -132,8 +131,9 @@ body {
 
 .products .img3 {
     background-color: #F6F7FB;
-    width: 270px;
+    flex-grow: 1;
     height: 236px;
+
     background-image: url(../assets/img/product/chair3.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -141,11 +141,18 @@ body {
 
 .products .img4 {
     background-color: #F6F7FB;
-    width: 270px;
+    flex-grow: 1;
     height: 236px;
+
     background-image: url(../assets/img/product/chair4.webp);
     background-position: center;
     background-repeat: no-repeat;
+
+}
+
+.product .products {
+    box-shadow: 0px 4px 4px #00000040;
+    flex-grow: 1;
 }
 
 .products .viewDet {
@@ -196,7 +203,7 @@ body {
 /*end product*/
 /*start Leatest Products section*/
 .leatest-prod .photo-prod1 {
-    width: 360px;
+    flex-grow: 1;
     height: 270px;
     background-color: #F7F7F7;
     background-image: url(../assets/img/LeatestProducts/chair1.webp);
@@ -208,7 +215,7 @@ body {
 }
 
 .leatest-prod .photo-prod2 {
-    width: 360px;
+    flex-grow: 1;
     height: 270px;
     background-color: #F7F7F7;
     background-image: url(../assets/img/LeatestProducts/chair2.webp);
@@ -220,7 +227,7 @@ body {
 }
 
 .leatest-prod .photo-prod3 {
-    width: 360px;
+    flex-grow: 1;
     height: 270px;
     background-color: #F7F7F7;
     background-image: url(../assets/img/LeatestProducts/chair3.webp);
@@ -232,7 +239,7 @@ body {
 }
 
 .leatest-prod .photo-prod4 {
-    width: 360px;
+    flex-grow: 1;
     height: 270px;
     background-color: #F7F7F7;
     background-image: url(../assets/img/LeatestProducts/chair4.webp);
@@ -244,7 +251,7 @@ body {
 }
 
 .leatest-prod .photo-prod5 {
-    width: 360px;
+    flex-grow: 1;
     height: 270px;
     background-color: #F7F7F7;
     background-image: url(../assets/img/LeatestProducts/chair5.webp);
@@ -256,7 +263,7 @@ body {
 }
 
 .leatest-prod .photo-prod6 {
-    width: 360px;
+    flex-grow: 1;
     height: 270px;
     background-color: #F7F7F7;
     background-image: url(../assets/img/LeatestProducts/chair6.webp);
@@ -292,6 +299,7 @@ body {
 
 .lproduct {
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .lproducts {
@@ -322,22 +330,25 @@ body {
     height: 350px;
     background-color: #FFF;
     box-shadow: 0px 0px 30px #00000010;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 .timg {
-    width: 247px;
     height: 244px;
     background-color: #F5F6F8;
     margin: auto;
+    
 }
 
 /*end Trending Products section*/
 /*start trending categoris section*/
-.top{
-     width: 269px;
+.top {
+    width: 269px;
     height: 345px;
 }
-.timg1{
+
+.timg1 {
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -347,7 +358,7 @@ body {
     background-position: center;
 }
 
-.timg2{
+.timg2 {
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -357,7 +368,7 @@ body {
     background-position: center;
 }
 
-.timg3{
+.timg3 {
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -367,7 +378,7 @@ body {
     background-position: center;
 }
 
-.timg4{
+.timg4 {
     width: 269px;
     height: 269px;
     background-color: #F6F7FB;
@@ -376,22 +387,26 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-.top-img img{
+
+.top-img img {
     display: none;
 }
+
 .top:hover .top-img {
     box-shadow: -7px 7px 0px #9877E7;
 }
+
 .top:hover .top-img img {
     display: block;
 }
 
-.top-img img{
-    
+.top-img img {
+
     position: relative;
     top: 225px;
     left: 85px;
 }
+
 /*end trending categoris section*/
 /*start newslater*/
 .newslater {
@@ -429,35 +444,43 @@ body {
 
 /*end client*/
 /*start leatest blog section*/
-.blog{
-        box-shadow: 0px 0px 30px #00000010;
-width: 370px;
-height: 493px;
+.blog {
+    box-shadow: 0px 0px 30px #00000010;
+    width: 370px;
+    height: 493px;
 }
-.fname2{
+
+.fname2 {
     display: none;
 }
-.bimg img{
+
+.bimg img {
     border-radius: 8px;
 }
-.bdetails button{
-border: none;
-background-color: #FFF;
+
+.bdetails button {
+    border: none;
+    background-color: #FFF;
     color: #151875;
     text-decoration-line: underline;
 }
-.blog:hover h3{
-color: var(--primaryColor);
+
+.blog:hover h3 {
+    color: var(--primaryColor);
 }
-.blog:hover button{
-color: var(--primaryColor);
+
+.blog:hover button {
+    color: var(--primaryColor);
 }
-.blog:hover .fname1{
-display: none;
+
+.blog:hover .fname1 {
+    display: none;
 }
-.blog:hover .fname2{
-display: inline;
+
+.blog:hover .fname2 {
+    display: inline;
 }
+
 /*end leatest blog section*/
 /*end main*/
 /*start footer*/

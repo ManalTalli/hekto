@@ -215,3 +215,6 @@ ul {
 .wrap{
     flex-wrap: wrap;
 }
+.flex-g{
+    flex-grow: 1;
+}
