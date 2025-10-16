@@ -522,3 +522,26 @@ body {
 }
 
 /*end footer*/
+.dark-mode {
+  background-color: black;
+  
+  .list a {
+    color: #ffffff;
+}
+
+.list .active {
+    color: var(--primaryColor);
+}
+.logo img{
+    background: #ffffff;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    width: 250px;
+    padding: 4px;
+    background: #000000;
+}
+
+}
